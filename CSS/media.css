@@ -1,0 +1,425 @@
+@media screen and (max-width: 900px) {
+    .menuBtn{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+}
+@media screen and (min-width: 901px) {
+    .menuBtn{
+        display: none;
+    }
+    .links{
+        display: flex;
+    }
+    .menuLinks{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        background-size: 300vw;
+        background-position-x: -55vw;
+        height: 140vw;
+    }
+    .readMore{
+        margin-top: 0;
+        padding: 15px;
+        border: 3px solid;
+    }
+    .heading{
+        margin: 7vw 3vw 4vw 4vw;
+        line-height: 12vw;
+        font-size: 34px;
+        font-family: sans-serif;
+    }
+    .para{
+        margin-right: 10vw;
+        line-height: 7vw;
+        font-size: 18.5px;
+        font-weight: normal;
+    }
+    .subMenuLinks{
+        min-height: 26vw;
+    }
+    .img2{
+        transform: scale(.65);
+    }
+    .imgContainer2{
+        height: 95vw;
+    }
+    .mainBooks{
+        transform: scale(.5);
+    }
+    .subbook{
+        transform: scale(.8);
+        margin: 0;
+    }
+    .subBooks1{
+        margin-bottom: -15vw;
+    }
+    .subBooks2{
+        margin-top: -15vw;
+    }
+    .footerImg{
+        height: 12vw;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    header{
+        background-size: 240vw;
+        background-position-x: -40vw;
+        height: 122vw;
+    }
+    .readMore{
+        margin-top: 3vw;
+        padding: 15px;
+        border: 3px solid;
+    }
+    .heading{
+        margin: 7vw 10vw 7vw 4vw;
+        line-height: 10vw;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    .para{
+        margin-right: 20vw;
+        line-height: 6vw;
+        font-size: large;
+        font-weight: normal;
+    }
+    .subMenuLinks{
+        min-height: 23vw;
+    }
+    .para3{
+        line-height: normal;
+    }
+    .img2{
+        transform: scale(.7);
+    }
+    .imgContainer2{
+        height: 90vw;
+    }
+    .mainBooks{
+        transform: scale(.6);
+    }
+    .subbook{
+        transform: scale(1);
+        margin: 0;
+    }
+    .footerImg{
+        height: 10vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    header{
+        background-size: 165vw;
+        height: 84vw;
+    }
+    .readMore{
+        margin-top: 3vw;
+        padding: 15px;
+    }
+    .heading{
+        margin: 7vw 15vw 6vw 4vw;
+        line-height: 7vw;
+        font-size: 35px;
+        font-family: sans-serif;
+    }
+    .para{
+        margin-right: 30vw;
+        font-size: large;
+    }
+    .subMenuLinks{
+        min-height: 20vw;
+    }
+    .img2{
+        transform: scale(.73);
+    }
+    .imgContainer2{
+        height: 85vw;
+    }
+    .mainBooks{
+        transform: scale(.7);
+    }
+    .subbook{
+        transform: scale(1.2);
+        margin: 6vw 0;
+    }
+    .footerImg{
+        height: 8vw;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    header{
+        background-size: 148vw;
+        height: 76vw;
+    }
+    .readMore{
+        margin-top: 2vw;
+    }
+    .heading{
+        margin: 5vw 25vw 6vw 4vw;
+        line-height: 6vw;
+        font-size: 32px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .para{
+        margin-right: 48vw;
+        font-size: larger;
+    }
+    .para3{
+        font-size: large;
+    }
+    .img2{
+        transform: scale(.75);
+    }
+    .imgContainer2{
+        height: 80vw;
+    }
+    .mainBooks{
+        transform: scale(.7);
+    }
+    .subbook{
+        transform: scale(1.2);
+        margin: 6vw 0;
+    }
+    .footerImg{
+        height: 5.5vw;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    header{
+        background-size: 138vw;
+        height: 70vw;
+    }
+    .readMore{
+        margin-top: 2vw;
+    }
+    .heading{
+        margin: 5vw 25vw 6vw 4vw;
+        line-height: 6vw;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .para{
+        margin-right: 48vw;
+        font-size: larger;
+    }
+    .img{
+        height: 40vw;
+    }
+    .img2{
+        transform: scale(.85);
+    }
+    .imgContainer2{
+        height: 70vw;
+    }
+    .mainBooks{
+        transform: scale(.8);
+    }
+    .subbook{
+        transform: scale(1.4);
+        margin: 10vw 0;
+    }
+    .footerImg{
+        height: 4.5vw;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    header{
+        background-size: 130vw;
+        height: 60vw;
+    }
+    .readMore{
+        margin-top: 2vw;
+    }
+    .heading{
+        margin: 5.5vw 40vw 5.5vw 4vw;
+        line-height: 5vw;
+        font-size: 38px;
+    }
+    .para{
+        margin-right: 50vw;
+    }
+    .img2{
+        transform: scale(.75);
+    }
+    .mainBooks{
+        transform: scale(.95);
+    }
+    .subbook{
+        transform: scale(1.7);
+        margin: 12vw 0;
+    }
+    .footerImg{
+        height: 4.5vw;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    header{
+        background-size: 130vw;
+        height: 55vw;
+    }
+    .readMore{
+        margin-top: 2vw;
+    }
+    .heading{
+        margin: 5.5vw 40vw 4vw 4vw;
+        line-height: 5vw;
+    }
+    .para{
+        margin-right: 50vw;
+    }
+    .img2{
+        transform: scale(.8);
+    }
+    .mainBooks{
+        transform: scale(.95);
+    }
+    .subbook{
+        transform: scale(1.7);
+        margin: 12vw 0;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+    header{
+        background-size: 135vw;
+    }
+    .readMore{
+        margin-top: 1vw;
+    }
+    .heading{
+        margin: 5vw 40vw 1vw 4vw;
+        line-height: 5vw;
+    }
+    .img2{
+        transform: scale(.85);
+    }
+    .subContainer4{
+        justify-content: center;
+    }
+    .subBooks1{
+        margin-right: -5vw;
+    }
+    .subBooks2{
+        margin-left: -5vw;
+    }
+    .subbook, .mainBooks{
+        transform: scale(.8);
+    }
+}
+@media screen and (max-width: 1000px) {
+    .container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content2{
+        flex-direction: column-reverse;
+        width: 70vw;
+    }
+    .imgContainer{
+        width: auto;
+    }
+    .info{
+        width: auto;
+        text-align: justify;
+    }
+    .para3{
+        line-height: 30px;
+    }
+    .subContainer4{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .para3{
+        line-height: 25px;
+    }
+    .para2{
+        margin: 0 0 6vw 0;
+    }
+    .inputs{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .inputs input{
+        width: 66vw;
+        margin-bottom: 2vw;
+        padding: 3.5vw 2vw;
+    }
+    .para4{
+        text-align: justify;
+    }
+    footer{
+        flex-direction: column;
+        padding: 3vw 3vw;
+    }
+    .foots:last-child{
+        margin-top: 5vw;
+    }
+    .imgContainer3{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .subscriptionForm{
+        display: flex;
+        justify-content: center;
+    }
+    .footEmail{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 700px) {
+    .btn{
+        padding: 2vw 3vw;
+    }
+    .para3{
+        font-size: medium;
+    }
+    .img{
+        height: 45vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .para3{
+        line-height: 20px;
+        font-size: small;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .formButtons{
+        width: 55vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .para2{
+        margin: 0 0 6vw 0;
+    }
+    textarea{
+        height: 25vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    .imgContainer2{
+        padding-top: 0;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    textarea{
+        height: 20vw;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .inputs input{
+        padding: 3vw 2vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .formButtons{
+        width: 45vw;
+    }
+}
